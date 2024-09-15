@@ -172,3 +172,36 @@ iframe{
     height: 150px;
     overflow: auto;
 }
+@media screen and (max-width:1024px) {
+    header{
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+       padding: 10px;
+        .div1,.div2{
+            margin-top: 20px;
+        }
+    }
+    .container2{
+        padding: 20px;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container2-1{
+        p{
+            font-size: 10px;
+           
+        }
+    }
+    .container2-1-1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .container4{
+        padding: 20px;
+        width: 90%;
+       
+    }
+    
+}
